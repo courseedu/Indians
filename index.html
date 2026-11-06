@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session King Cricket - No.1 Telegram Tips Channel</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        body {
+            background: #05070d;
+            background-image: 
+                radial-gradient(at 10% 20%, rgba(0, 136, 204, 0.2) 0px, transparent 50%),
+                radial-gradient(at 90% 80%, rgba(245, 158, 11, 0.2) 0px, transparent 50%),
+                radial-gradient(at 50% 50%, rgba(30, 41, 59, 0.8) 0px, transparent 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+        .container {
+            width: 100%;
+            max-width: 440px;
+            background: rgba(13, 18, 30, 0.85);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1.5px solid rgba(0, 136, 204, 0.3);
+            border-radius: 30px;
+            padding: 30px 22px;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 50px rgba(0, 136, 204, 0.15);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Glowing background light effect */
+        .container::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 150px;
+            height: 150px;
+            background: rgba(0, 136, 204, 0.3);
+            border-radius: 50%;
+            filter: blur(40px);
+            z-index: 0;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Top Glowing Live Badge */
+        .live-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.4);
+            color: #ef4444;
+            font-weight: 700;
+            font-size: 11px;
+            padding: 6px 14px;
+            border-radius: 50px;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #ef4444;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #ef4444;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.3); opacity: 1; box-shadow: 0 0 15px #ef4444; }
+            100% { transform: scale(0.95); opacity: 0.8; }
+        }
+
+        /* Custom Logo Styling */
+        .channel-logo-container {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 18px;
+        }
+        .channel-logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #0088cc;
+            box-shadow: 0 0 30px rgba(0, 136, 204, 0.6);
+            animation: floatLogo 3s ease-in-out infinite;
+        }
+        @keyframes floatLogo {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        h1 {
+            font-size: 25px;
+            font-weight: 900;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+            color: #ffffff;
+        }
+        h1 span {
+            background: linear-gradient(90deg, #38bdf8, #0088cc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline {
+            font-size: 13px;
+            color: #94a3b8;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        /* Bada aur Blink/Glow karne wala Join Button */
+        .inline-join-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            background: linear-gradient(135deg, #00a2ff 0%, #0088cc 100%);
+            border: 2px solid rgba(56, 189, 248, 0.8);
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 800;
+            padding: 14px 20px;
+            border-radius: 16px;
+            text-decoration: none;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 0 20px rgba(0, 136, 204, 0.6);
+            animation: buttonGlow 1.8s infinite alternate;
+            transition: all 0.3s ease;
+        }
+        
+        .inline-join-btn i {
+            font-size: 18px;
+        }
+
+        @keyframes buttonGlow {
+            0% {
+                box-shadow: 0 0 10px rgba(0, 136, 204, 0.4), inset 0 0 10px rgba(56, 189, 248, 0.2);
+                border-color: rgba(56, 189, 248, 0.5);
+                transform: scale(1);
+            }
+            100% {
+                box-shadow: 0 0 25px rgba(0, 162, 255, 0.9), inset 0 0 15px rgba(255, 255, 255, 0.4);
+                border-color: rgba(255, 255, 255, 0.9);
+                transform: scale(1.02);
+            }
+        }
+
+        .inline-join-btn:hover {
+            background: linear-gradient(135deg, #00b4d8 0%, #0096c7 100%);
+            transform: scale(1.03);
+        }
+
+        /* Features Box */
+        .features-box {
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 22px;
+            text-align: left;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 14px;
+            font-size: 13px;
+            color: #e2e8f0;
+            font-weight: 500;
+        }
+        .feature-item:last-child {
+            margin-bottom: 0;
+        }
+        .feature-item i {
+            color: #f59e0b;
+            font-size: 15px;
+            background: rgba(245, 158, 11, 0.15);
+            padding: 9px;
+            border-radius: 10px;
+            min-width: 35px;
+            text-align: center;
+        }
+
+        /* Ultra Glowing Telegram CTA Button */
+        .cta-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            background: linear-gradient(135deg, #0088cc 0%, #00a2ff 100%);
+            color: #ffffff;
+            font-size: 17px;
+            font-weight: 800;
+            padding: 18px;
+            border-radius: 16px;
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(0, 136, 204, 0.6);
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+        }
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(0, 136, 204, 0.85);
+            background: linear-gradient(135deg, #0099e6 0%, #1ab5ff 100%);
+        }
+        .cta-btn i {
+            font-size: 22px;
+        }
+
+        .footer-note {
+            font-size: 11px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="content-wrapper">
+            <!-- Live Blinking Badge -->
+            <div class="live-badge">
+                <div class="pulse-dot"></div> VIP MATCHING TIPS LIVE
+            </div>
+
+            <!-- Custom Logo -->
+            <div class="channel-logo-container">
+                <img src="https://i.ibb.co/mF56P3pw/IMG-20261106-082443-761.jpg" alt="Session King Logo" class="channel-logo">
+            </div>
+
+            <!-- Heading -->
+            <h1>SESSION KING <span>DANIEL CRICKET</span></h1>
+            <div class="tagline"></div>
+            
+            <!-- Bada aur Blink karne wala Join Button -->
+            <a href="https://telegram.me/+vd7pG2zAi3I0Y2Jl" class="inline-join-btn" target="_blank">
+                <i class="fab fa-telegram-plane"></i> JOIN TELEGRAM CHANNEL
+            </a>
+
+            <!-- Highlights / Features -->
+            <div class="features-box">
+                <div class="feature-item">
+                    <i class="fas fa-bolt"></i>
+                    <span><strong>1 Limit Session</strong> & Non-Cut Pass Guarantee</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span>10 Over Session & Match Winner Jackpot</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>100% Free VIP Work Sheet Updates Daily</span>
+                </div>
+            </div>
+
+            <!-- Call to Action Button -->
+            <a href="https://telegram.me/+vd7pG2zAi3I0Y2Jl" class="cta-btn" target="_blank">
+                <i class="fab fa-telegram-plane"></i> JOIN FREE CHANNEL 
+            </a>
+
+            <!-- Footer Note -->
+            <div class="footer-note">
+                🔒 Safe & Secure. Click to open directly in Telegram.
+         
+            <div class="disclaimer">
+                Disclaimer: This channel is for educational and entertainment purposes only...
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
