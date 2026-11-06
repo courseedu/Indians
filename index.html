@@ -107,6 +107,7 @@
             border: 3px solid #0088cc;
             box-shadow: 0 0 30px rgba(0, 136, 204, 0.6);
             animation: floatLogo 3s ease-in-out infinite;
+            background-color: #111; /* Agar image load hone me time le to background dikhe */
         }
         @keyframes floatLogo {
             0%, 100% { transform: translateY(0); }
@@ -243,6 +244,12 @@
         .footer-note {
             font-size: 11px;
             color: #64748b;
+            margin-bottom: 10px;
+        }
+
+        .disclaimer {
+            font-size: 10px;
+            color: #475569;
         }
     </style>
 </head>
@@ -274,7 +281,7 @@ src="https://www.facebook.com/tr?id=2135323507070271&ev=PageView&noscript=1"
 
             <!-- Custom Logo -->
             <div class="channel-logo-container">
-                <img src="https://i.ibb.co/mF56P3pw/IMG-20261106-082443-761.jpg" alt="Session King Logo" class="channel-logo">
+                <img src="https://i.ibb.co/mF56P3pw/IMG-20261106-082443-761.jpg" alt="Session King Logo" class="channel-logo" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2111/2111646.png'">
             </div>
 
             <!-- Heading -->
@@ -310,12 +317,12 @@ src="https://www.facebook.com/tr?id=2135323507070271&ev=PageView&noscript=1"
             <!-- Footer Note -->
             <div class="footer-note">
                 🔒 Safe & Secure. Click to open directly in Telegram.
+            </div>
          
             <div class="disclaimer">
                 Disclaimer: This channel is for educational and entertainment purposes only...
             </div>
         </div>
-    </div>
     </div>
 
 </body>
